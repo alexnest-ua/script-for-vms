@@ -47,10 +47,10 @@ sudo tar -xvf db1000n-v0.6.7-linux-amd64.tar.gz
 sudo chmod +x db1000n
 
 sudo git clone https://gitlab.com/ELWAHAB/dd-atack.git
-cd /home/${USER}/dd-atack
+cd ~/dd-atack
 sudo sh setup.sh
-sudo cp main.php /home/${USER}
-cd /home/${USER}
+cp ~/dd-atack/main.php ~
+cd ~
 sudo chmod +x main.php
 
 sudo git clone https://github.com/alexnest-ua/Updated-bombardier.git

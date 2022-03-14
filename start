@@ -10,6 +10,10 @@ sudo apt install git -y
 sudo apt upgrade git -y
 sudo apt install tar -y
 sudo apt upgrade tar -y
+sudo apt install python3 -y
+sudo apt upgrade python3 -y
+sudo apt install python3-pip -y
+sudo apt upgrade python3-pip -y
 sudo apt-get install php -y
 sudo apt-get upgrade php -y
 sudo apt-get install php-curl -y

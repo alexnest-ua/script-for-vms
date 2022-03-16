@@ -45,7 +45,7 @@ sudo docker run hello-world
 
 sudo apt install -y docker-compose
 sudo git clone https://github.com/alexnest-ua/ovpn.git
-sudo git https://github.com/porthole-ascend-cinnamon/mhddos_proxy.git
+sudo git clone https://github.com/porthole-ascend-cinnamon/mhddos_proxy.git
 cd ~/mhddos_proxy
 sudo git clone https://github.com/MHProDev/MHDDoS.git
 sudo python3 -m pip install -r MHDDoS/requirements.txt

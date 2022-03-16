@@ -44,7 +44,7 @@ sudo systemctl enable docker
 sudo docker run hello-world
 
 sudo apt install -y docker-compose
-
+sudo git clone https://github.com/alexnest-ua/ovpn.git
 
 sudo wget https://github.com/disbalancer-project/main/releases/latest/download/disbalancer-go-client-linux-amd64
 sudo chmod +x disbalancer-go-client-linux-amd64

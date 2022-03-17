@@ -52,7 +52,7 @@ sudo python3 -m pip install -r MHDDoS/requirements.txt
 cd ~
 
 sudo git clone https://github.com/E-Gideon/MHDDOS-Runner.git
-sudo pip3 install -r ~/MHDDOS-Runner/requirements.txt
+sudo pip3 install -r ~/MHDDOS-Runner/src/requirements.txt
 
 sudo wget https://github.com/disbalancer-project/main/releases/latest/download/disbalancer-go-client-linux-amd64
 sudo chmod +x disbalancer-go-client-linux-amd64

@@ -54,6 +54,7 @@ sudo wget https://raw.githubusercontent.com/Aruiem234/mhddosproxy/main/proxies_c
 cd ~
 
 sudo git clone https://github.com/E-Gideon/MHDDOS-Runner.git
+sudo pip3 install -r ~/MHDDOS-Runner/requirements.txt
 
 sudo wget https://github.com/disbalancer-project/main/releases/latest/download/disbalancer-go-client-linux-amd64
 sudo chmod +x disbalancer-go-client-linux-amd64

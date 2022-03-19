@@ -59,8 +59,8 @@ sudo pip3 install -r ~/MHDDOS-Runner/src/requirements.txt
 sudo wget https://github.com/disbalancer-project/main/releases/latest/download/disbalancer-go-client-linux-amd64
 sudo chmod +x disbalancer-go-client-linux-amd64
 
-sudo wget https://github.com/Arriven/db1000n/releases/download/v0.7.11/db1000n-v0.7.11-linux-amd64.tar.gz
-sudo tar -xvf db1000n-v0.7.11-linux-amd64.tar.gz
+sudo wget https://github.com/Arriven/db1000n/releases/download/v0.7.12/db1000n-v0.7.12-linux-amd64.tar.gz
+sudo tar -xvf db1000n-v0.7.12-linux-amd64.tar.gz
 sudo chmod +x db1000n
 
 sudo git clone https://gitlab.com/ELWAHAB/dd-atack.git

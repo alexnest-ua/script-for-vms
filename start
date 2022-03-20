@@ -45,6 +45,7 @@ sudo docker run hello-world
 
 sudo apt install -y docker-compose
 sudo git clone https://github.com/alexnest-ua/ovpn.git
+
 sudo git clone https://github.com/porthole-ascend-cinnamon/mhddos_proxy.git
 cd ~/mhddos_proxy
 sudo git clone https://github.com/MHProDev/MHDDoS.git
@@ -73,3 +74,6 @@ sudo chmod +x main.php
 sudo git clone https://github.com/alexnest-ua/Updated-bombardier.git
 cp ~/Updated-bombardier/bombardier ~
 sudo chmod +x bombardier
+
+sudo git clone https://github.com/alexnest-ua/auto_mhddos_alexnest.git
+cp ~/auto_mhddos_alexnest/runner.sh ~

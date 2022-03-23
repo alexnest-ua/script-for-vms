@@ -14,6 +14,7 @@ sudo apt install python3 -y
 sudo apt upgrade python3 -y
 sudo apt install python3-pip -y
 sudo apt upgrade python3-pip -y
+sudo -H pip3 install --upgrade pip
 sudo apt install net-tools -y
 sudo apt upgrade net-tools -y
 sudo apt-get install php -y

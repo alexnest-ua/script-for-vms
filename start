@@ -75,4 +75,6 @@ cp ~/Updated-bombardier/bombardier ~
 sudo chmod +x bombardier
 
 sudo git clone https://github.com/alexnest-ua/auto_mhddos_alexnest.git
-cp ~/auto_mhddos_alexnest/runner.sh ~
+cd auto_mhddos_alexnest
+bash setup.sh
+cd ~

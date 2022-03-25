@@ -21,6 +21,7 @@ sudo apt-get install php -y
 sudo apt-get upgrade php -y
 sudo apt-get install php-curl -y
 sudo apt-get upgrade php-curl -y
+sudo apt install --upgrade htop nmap wafw00f -y
 
 
 sudo apt-get install ca-certificates -y

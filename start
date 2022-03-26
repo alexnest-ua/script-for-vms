@@ -50,8 +50,7 @@ sudo git clone https://github.com/alexnest-ua/ovpn.git
 
 sudo git clone https://github.com/porthole-ascend-cinnamon/mhddos_proxy.git
 cd ~/mhddos_proxy
-sudo git clone https://github.com/MHProDev/MHDDoS.git
-sudo python3 -m pip install -r MHDDoS/requirements.txt
+sudo pip3 install -r requirements.txt
 sudo rm proxies_config.json
 sudo wget https://raw.githubusercontent.com/Aruiem234/mhddosproxy/main/proxies_config.json
 cd ~

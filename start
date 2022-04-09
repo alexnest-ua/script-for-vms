@@ -60,8 +60,8 @@ sudo wget https://github.com/disbalancer-project/main/releases/latest/download/d
 sudo chmod +x disbalancer-go-client-linux-amd64
 
 sudo rm db1000n
-sudo wget https://github.com/Arriven/db1000n/releases/download/v0.8.19/db1000n_0.8.19_linux_amd64.tar.gz
-sudo tar -xvf db1000n_0.8.19_linux_amd64.tar.gz
+sudo wget https://github.com/Arriven/db1000n/releases/latest/download/db1000n_linux_amd64.tar.gz
+sudo tar -xvf db1000n_linux_amd64.tar.gz
 sudo chmod +x db1000n
 
 sudo git clone https://gitlab.com/ELWAHAB/dd-atack.git

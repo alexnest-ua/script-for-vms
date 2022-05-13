@@ -53,7 +53,6 @@ cd ~/mhddos_proxy
 sudo pip3 install -r requirements.txt
 cd ~
 
-
 sudo wget https://github.com/disbalancer-project/main/releases/latest/download/disbalancer-go-client-linux-amd64
 sudo chmod +x disbalancer-go-client-linux-amd64
 
@@ -62,14 +61,6 @@ sudo wget https://github.com/Arriven/db1000n/releases/latest/download/db1000n_li
 sudo tar -xvf db1000n_linux_amd64.tar.gz
 sudo chmod +x db1000n
 
-sudo git clone https://gitlab.com/ELWAHAB/dd-atack.git
-cp ~/dd-atack/main.php ~
-cd ~
-sudo chmod +x main.php
-
-sudo git clone https://github.com/alexnest-ua/Updated-bombardier.git
-cp ~/Updated-bombardier/bombardier ~
-sudo chmod +x bombardier
 
 sudo git clone https://github.com/alexnest-ua/auto_mhddos_alexnest.git
 cd auto_mhddos_alexnest

@@ -63,8 +63,6 @@ sudo tar -xvf db1000n_linux_amd64.tar.gz
 sudo chmod +x db1000n
 
 sudo git clone https://gitlab.com/ELWAHAB/dd-atack.git
-cd ~/dd-atack
-sudo sh setup.sh
 cp ~/dd-atack/main.php ~
 cd ~
 sudo chmod +x main.php

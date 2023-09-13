@@ -48,11 +48,6 @@ sudo docker run hello-world
 sudo apt install -y docker-compose
 sudo git clone https://github.com/alexnest-ua/ovpn.git
 
-sudo git clone https://github.com/porthole-ascend-cinnamon/mhddos_proxy.git
-cd ~/mhddos_proxy
-sudo pip3 install -r requirements.txt
-cd ~
-
 sudo wget https://github.com/disbalancer-project/main/releases/latest/download/disbalancer-go-client-linux-amd64
 sudo chmod +x disbalancer-go-client-linux-amd64
 
@@ -60,7 +55,6 @@ sudo rm db1000n
 sudo wget https://github.com/Arriven/db1000n/releases/latest/download/db1000n_linux_amd64.tar.gz
 sudo tar -xvf db1000n_linux_amd64.tar.gz
 sudo chmod +x db1000n
-
 
 sudo git clone https://github.com/alexnest-ua/auto_mhddos_alexnest.git
 cd auto_mhddos_alexnest
